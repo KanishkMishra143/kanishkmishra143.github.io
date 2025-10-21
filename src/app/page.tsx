@@ -116,7 +116,8 @@ export default function Home() {
       ></div>
       <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
         <div className="lg:flex lg:justify-between lg:gap-4">
-          <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:py-16 lg:overflow-y-auto">
+          <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:py-16">
+          {/* <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:py-16 lg:overflow-y-auto"> */}
             <div>
               <div className="w-40 h-40 md:w-48 md:h-48 rounded-full bg-slate-700 mb-4">
                 <Image src="/profile.png" alt="Profile Picture" className="rounded-full" width={192} height={192} />
