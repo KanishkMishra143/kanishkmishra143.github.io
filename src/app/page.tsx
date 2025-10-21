@@ -14,7 +14,7 @@ const NavLink = ({ href, children }: { href: string; children: React.ReactNode }
 
 const ProjectCard = ({ name, description, tags, url }: { name: string; description: string; tags: string[]; url?: string }) => (
   <div className="group relative grid gap-4 pb-1 mb-8 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-    <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+    <div className="absolute -inset-x-4 -inset-y-2 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
     <div className="z-10 sm:col-span-6">
       <h3 className="font-medium leading-snug text-slate-200">
         <div>
@@ -116,9 +116,9 @@ export default function Home() {
       ></div>
       <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
         <div className="lg:flex lg:justify-between lg:gap-4">
-          <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:py-16">
+          <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:py-16 lg:overflow-y-auto">
             <div>
-              <div className="w-48 h-48 rounded-full bg-slate-700 mb-4">
+              <div className="w-40 h-40 md:w-48 md:h-48 rounded-full bg-slate-700 mb-4">
                 <Image src="/profile.png" alt="Profile Picture" className="rounded-full" width={192} height={192} />
               </div>
               <h1 className="text-3xl font-bold tracking-tight text-slate-200 sm:text-4xl">Kanishk Kumar Mishra</h1>
@@ -142,7 +142,7 @@ export default function Home() {
                 </ul>
               </nav>
             </div>
-            <ul className="ml-1 mt-8 flex items-center" aria-label="Social media">
+            <ul className="ml-1 mt-8 flex items-center mt-auto" aria-label="Social media">
               <li className="mr-5 shrink-0"><a href="https://github.com/KanishkMishra143" target="_blank" rel="noreferrer noopener" className="block hover:text-slate-200"><Github className="h-6 w-6" /></a></li>
               <li className="mr-5 shrink-0"><a href="https://www.linkedin.com/in/kanishk-kumar-83603b194/" target="_blank" rel="noreferrer noopener" className="block hover:text-slate-200"><Linkedin className="h-6 w-6" /></a></li>
               <li className="mr-5 shrink-0"><a href="mailto:kanishk.kumar412@gmail.com" className="block hover:text-slate-200"><Mail className="h-6 w-6" /></a></li>
@@ -219,7 +219,7 @@ export default function Home() {
             </section>
 
             <section id="projects" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
-              <h2 className="text-xl font-bold tracking-tight text-slate-200 sm:text-2xl mb-4">Projects</h2>
+              <h2 className="text-xl font-bold tracking-tight text-slate-200 sm:text-2xl mb-4 relative z-20">Projects</h2>
               <div className="group/list">
                 <ProjectCard 
                   name="Custom Linux Setup" 
