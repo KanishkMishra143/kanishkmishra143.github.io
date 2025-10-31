@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import { Github, Linkedin, Mail, Code, Database, GitMerge, Server, Cog, Users, Download, MapPin, Gamepad2, ChartBar, Table2, AppWindow, ClipboardCheck, Send } from 'lucide-react';
+import Contact from '../components/Contact';
 
 const NavLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
   <a href={href} className="group flex items-center py-3">
@@ -140,6 +141,7 @@ export default function Home() {
                   <li><NavLink href="#skills">Skills</NavLink></li>
                   <li><NavLink href="#experience">Experience</NavLink></li>
                   <li><NavLink href="#projects">Projects</NavLink></li>
+                  <li><NavLink href="#contact">Contact</NavLink></li>
                 </ul>
               </nav>
             </div>
@@ -241,8 +243,7 @@ export default function Home() {
                 />
               </div>
             </section>
-
-
+            <Contact />
           </main>
         </div>
       </div>
