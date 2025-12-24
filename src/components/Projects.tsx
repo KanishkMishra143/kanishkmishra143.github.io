@@ -1,39 +1,23 @@
-
-import React from 'react'
-
-const projects = [
-  {
-    name: 'Custom Linux Setup for Productivity',
-    description: 'Hyprland + Eww + automation',
-  },
-  {
-    name: 'API Testing & Bug Reporting Practice',
-    description: '',
-  },
-  {
-    name: 'Python Utility Scripts',
-    description: '',
-  },
-  {
-    name: 'Sink Switch CLI Tool',
-    description: 'published on Fedora COPR & Arch AUR',
-  },
-]
+import { projectsData } from "@/data/projects";
+import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   return (
-    <div className="mt-8">
-      <h2 className="text-2xl font-bold mb-4">Projects</h2>
-      <div className="space-y-4">
-        {projects.map(project => (
-          <div key={project.name}>
-            <h3 className="font-bold">{project.name}</h3>
-            <p className="text-text-secondary">{project.description}</p>
-          </div>
+    <section id="projects" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
+      <h2 className="text-xl font-bold tracking-tight text-slate-200 sm:text-2xl mb-4 relative z-20">Projects</h2>
+      <div className="group/list">
+        {projectsData.map((project, idx) => (
+          <ProjectCard
+            key={idx}
+            name={project.name}
+            description={project.description}
+            tags={project.tags}
+            url={project.url}
+          />
         ))}
       </div>
-    </div>
-  )
-}
+    </section>
+  );
+};
 
-export default Projects
+export default Projects;

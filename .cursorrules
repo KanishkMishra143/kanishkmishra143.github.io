@@ -1,0 +1,39 @@
+# Cursor Rules – Portfolio (Next.js / TypeScript)
+
+## Sources of Truth (in priority order)
+1) docs/context.md — project goals, content, preferences
+2) src/app/layout.tsx — global metadata/fonts
+3) README.md (if present)
+
+## Assistant Workflow
+- Always read and cross-reference docs/context.md before starting a task.
+- If user or assistant changes scope/requirements, update docs/context.md first.
+- Keep this .cursorrules aligned with docs/context.md; update when norms change.
+- Prefer static-first solutions compatible with static export.
+
+## Coding Preferences
+- Preserve existing indentation, formatting, and style; avoid unrelated reformatting.
+- Use functional React components with clear, descriptive names.
+- Favor early returns and minimal complexity; avoid unnecessary try/catch.
+- Keep code linter-clean; fix introduced lint errors immediately.
+- Use semantic HTML and accessibility best practices.
+
+## Performance & Bundle
+- Minimize client-side JS; avoid heavy UI libraries unless requested.
+- Optimize images and use responsive sizes.
+
+## SEO & Metadata
+- Maintain accurate title/description; add OpenGraph/Twitter tags when adding pages.
+
+## Data & Content
+- Prefer static content (MDX/JSON) for bios/projects.
+- Store featured projects with title, summary, tech, demo URL, repo URL.
+
+## Guardrails
+- Do not introduce server-only features for core pages.
+- Do not change fonts/color system without user approval.
+- Do not add large dependencies without consulting the user.
+
+## Operational Notes
+- Large/generated folders should be ignored via .cursorignore: node_modules, .next, dist, out.
+- When in doubt, ask for minimal clarifications; otherwise proceed with sensible defaults in docs/context.md.

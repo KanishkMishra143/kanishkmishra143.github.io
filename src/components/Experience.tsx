@@ -1,41 +1,25 @@
-
-import React from 'react'
-
-const experiences = [
-  {
-    role: 'Front End Web Developer',
-    company: 'Juvarc',
-    location: 'Melbourne, Australia',
-    duration: 'March 2025 – Present (5 months)',
-  },
-  {
-    role: 'B.Tech',
-    company: ''
-  },
-  {
-    role: 'Senior Team Leader (Intern)',
-    company: 'UpToSkills',
-    duration: 'Jul–Oct 2025',
-    description: 'Managed a team of 14 on a FinTech project using AI chatbot, financial data analysis (Pandas, PostgreSQL).',
-  },
-]
+import { timelineData } from "@/data/experience";
+import TimelineItem from "./TimelineItem";
 
 const Experience = () => {
   return (
-    <div className="mt-8">
-      <h2 className="text-2xl font-bold mb-4">Experience</h2>
-      <div className="space-y-4">
-        {experiences.map(exp => (
-          <div key={exp.role}>
-            <h3 className="font-bold">{exp.role} at {exp.company}</h3>
-            {exp.location && <p className="text-text-secondary">{exp.location}</p>}
-            <p className="text-text-secondary">{exp.duration}</p>
-            {exp.description && <p className="text-text-secondary mt-2">{exp.description}</p>}
-          </div>
+    <section id="experience" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
+      <h2 className="text-xl tracking-tight text-slate-200 sm:text-2xl mb-4">Experience & Education</h2>
+      <div>
+        {timelineData.map((item, idx) => (
+          <TimelineItem
+            key={idx}
+            date={item.date}
+            title={item.title}
+            subtitle={item.subtitle}
+            description={item.description}
+            logoUrl={item.logoUrl}
+            isLast={item.isLast}
+          />
         ))}
       </div>
-    </div>
-  )
-}
+    </section>
+  );
+};
 
-export default Experience
+export default Experience;
