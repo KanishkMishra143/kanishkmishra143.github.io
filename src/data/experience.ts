@@ -16,6 +16,13 @@ export const timelineData: TimelineItemProps[] = [
         logoUrl: "/future.svg",
     },
     {
+        date: "Jan – Apr 2026",
+        title: "Full Stack Developer (Intern)",
+        subtitle: "Graphura India Private Limited",
+        description: "Specialising in efficient and resourceful deployement of projects and contributed to many of the major projects, which was released to the clients. It gave me a much real life experience of how to handle clients.",
+        logoUrl: "/graphura.png",
+    },
+    {
         date: "Jul – Oct 2025",
         title: "Senior Team Leader (Intern)",
         subtitle: "UpToSkills",

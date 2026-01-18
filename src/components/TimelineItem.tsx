@@ -41,12 +41,12 @@ import { TimelineItemProps } from "@/data/experience";
     5 
 const TimelineItem = ({ date, title, subtitle, description, logoUrl, isLast }: TimelineItemProps) => {
 return (
-    <div className="relative flex items-start">
+    <div className="relative flex gap-4">
         <div className="flex flex-col items-center mr-4">
             <div className="flex items-center justify-center w-12 h-12 rounded-full bg-slate-700">
                 <Image src={logoUrl} alt={`${subtitle} logo`} className="w-8 h-8 object-contain" width={32} height={32} />
             </div>
-            {!isLast && <div className="w-px h-24 bg-slate-600 mt-2"></div>}
+            {!isLast && <div className="w-px flex-1 bg-slate-600 mt-2"></div>}
         </div>
         <div className="bg-slate-800/50 p-4 rounded-md flex-1">
             <p className="text-sm text-slate-400 mb-1">{date}</p>
