@@ -26,11 +26,6 @@ I am a 21-year-old DevOps Engineer based in New Delhi, India. I thrive on solvin
 *   **Languages:** Python, Bash, C++, HTML/CSS
 *   **Testing & QA:** Postman, Jira
 
-### Featured Projects
-*   **Custom Linux Setup:** A personalized productivity environment using Hyprland and automation scripts.
-*   **Sink Switch CLI Tool:** A Python utility for managing audio devices in Linux, published on Fedora COPR and Arch AUR.
-*   **API Testing & Bug Reporting:** A project focused on documenting API testing methodologies with Postman and Jira.
-
 ## Contact
 
 You can find my social links, email, and CV on the portfolio site itself. Thank you for visiting!

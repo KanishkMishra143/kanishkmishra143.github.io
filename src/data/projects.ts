@@ -21,9 +21,9 @@ export const projectsData: Project[] = [
         url: "https://github.com/KanishkMishra143/NotionSafe", 
     },
     {
-        name: "Sink Switch – Linux Audio Management CLI",
+        name: "Sink Switch – Audio Management Suite",
         description: "Command-line utility to switch PipeWire/PulseAudio sinks. Published to Fedora COPR and Arch User Repository.",
-        tags: ['Python', 'CLI', 'Linux', 'PipeWire', 'Fedora COPR'],
+        tags: ['Windows', 'Linux', 'Python', 'GO','CLI', 'PipeWire', 'Fedora COPR'],
         url: "https://github.com/KanishkMishra143/sink-switch",
     },
     {
