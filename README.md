@@ -15,6 +15,11 @@ This portfolio is a fully responsive single-page application built from the grou
 *   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
 *   **Deployment:** [GitHub Actions](https://github.com/features/actions) & [GitHub Pages](https://pages.github.com/)
 
+### Quick Start (Windows)
+
+Run:
+setup.bat
+
 ## About Me
 
 I am a 21-year-old DevOps Engineer based in New Delhi, India. I thrive on solving complex problems, optimizing systems for performance, and creating efficient, scalable infrastructure for modern web applications. My experience has taught me to be adaptable and resourceful, and I have a strong background in the Python ecosystem, backend development, and various DevOps practices.
