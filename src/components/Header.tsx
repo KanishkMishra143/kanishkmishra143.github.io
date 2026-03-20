@@ -58,7 +58,7 @@ const Header = () => {
           </a>
         </li>
         <li className="mr-5 shrink-0">
-          <a href="https://drive.google.com/file/d/1YjYAgKYVSYjMZc93y1MjuLXUizNJYxir/view?usp=sharing" target="_blank" rel="noreferrer noopener" className="inline-flex items-center gap-2 rounded-md border border-slate-200 px-4 py-2 text-sm font-medium text-slate-200 hover:border-teal-300 hover:text-teal-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-300/50" download="Kanishk_Mishra_CV.pdf">
+          <a href="https://drive.google.com/uc?export=download&id=1n2GHmHtrPtkn94SnzrIULNvIMXnEtGOz" target="_blank" rel="noreferrer noopener" className="inline-flex items-center gap-2 rounded-md border border-slate-200 px-4 py-2 text-sm font-medium text-slate-200 hover:border-teal-300 hover:text-teal-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-300/50" download="Kanishk_Mishra_CV.pdf">
             <Download className="h-4 w-4" />
             <span>Download CV</span>
           </a>

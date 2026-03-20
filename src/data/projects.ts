@@ -15,7 +15,7 @@ export const projectsData: Project[] = [
     },
     {
         name: "NotionSafe – Secure Notion Backup Tool",
-        description: "A CLI with cross-platform GUI to securely back up Notion workspace data via official APIs. Designed foautomation, data integrity, and fault tolerance.",
+        description: "A CLI with cross-platform GUI to securely back up Notion workspace data via official APIs. Designed for automation, data integrity, and fault tolerance.",
         tags: ['Python', 'CLI', 'Notion API', 'Automation'],
         // Check if this URL is correct
         url: "https://github.com/KanishkMishra143/NotionSafe", 
