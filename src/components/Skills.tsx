@@ -15,7 +15,7 @@ const Skills = () => {
                 <SkillPill name="CSS" icon={Code} />
                 <SkillPill name="JS" icon={Code} />
                 <SkillPill name="C++" icon={Code} />
-                <SkillPill name="GoLang" icon={Code} />
+                <SkillPill name="Go" icon={Code} />
                 <SkillPill name="Bash" icon={Code} />
             </div>
         </div>

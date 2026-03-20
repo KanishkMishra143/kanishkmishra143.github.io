@@ -8,12 +8,12 @@ const Header = () => {
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:py-16">
       <div>
         <div className="w-40 h-40 md:w-48 md:h-48 rounded-full bg-slate-700 mb-4">
-          <Image 
-            src="/profile.png" 
-            alt="Profile Picture" 
-            className="rounded-full" 
-            width={192} 
-            height={192} 
+          <Image
+            src="/profile.png"
+            alt="Profile Picture"
+            className="rounded-full"
+            width={192}
+            height={192}
           />
         </div>
         <h1 className="text-3xl font-bold tracking-tight text-slate-200 sm:text-4xl">
@@ -58,7 +58,7 @@ const Header = () => {
           </a>
         </li>
         <li className="mr-5 shrink-0">
-          <a href="https://drive.google.com/file/d/10dGFMZgfRK_BKxujZKWcFycJaD4HKSxX/view" target="_blank" rel="noreferrer noopener" className="inline-flex items-center gap-2 rounded-md border border-slate-200 px-4 py-2 text-sm font-medium text-slate-200 hover:border-teal-300 hover:text-teal-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-300/50" download="Kanishk_Mishra_CV.pdf">
+          <a href="https://drive.google.com/file/d/1YjYAgKYVSYjMZc93y1MjuLXUizNJYxir/view?usp=sharing" target="_blank" rel="noreferrer noopener" className="inline-flex items-center gap-2 rounded-md border border-slate-200 px-4 py-2 text-sm font-medium text-slate-200 hover:border-teal-300 hover:text-teal-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-300/50" download="Kanishk_Mishra_CV.pdf">
             <Download className="h-4 w-4" />
             <span>Download CV</span>
           </a>
