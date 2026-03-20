@@ -15,15 +15,15 @@ export const projectsData: Project[] = [
     },
     {
         name: "NotionSafe – Secure Notion Backup Tool",
-        description: "A CLI tool to securely back up Notion workspace data via official APIs. Designed foautomation, data integrity, and fault tolerance.",
+        description: "A CLI with cross-platform GUI to securely back up Notion workspace data via official APIs. Designed foautomation, data integrity, and fault tolerance.",
         tags: ['Python', 'CLI', 'Notion API', 'Automation'],
         // Check if this URL is correct
         url: "https://github.com/KanishkMishra143/NotionSafe", 
     },
     {
         name: "Sink Switch – Audio Management Suite",
-        description: "Command-line utility to switch PipeWire/PulseAudio sinks. Published to Fedora COPR and Arch User Repository.",
-        tags: ['Windows', 'Linux', 'Python', 'GO','CLI', 'PipeWire', 'Fedora COPR'],
+        description: "Linux: Command-line utility to switch PipeWire/PulseAudio sinks. Windows: Native Go application that interacts directly with Windows Core Audio APIs.",
+        tags: ['Windows', 'Linux', 'Python', 'GO','CLI', 'PipeWire', 'Fedora COPR', 'Arch User Repository(AUR)'],
         url: "https://github.com/KanishkMishra143/sink-switch",
     },
     {
