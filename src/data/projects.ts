@@ -11,13 +11,13 @@ export const projectsData: Project[] = [
         description: "A CLI with cross-platform GUI to securely back up Notion workspace data via official APIs. Designed for automation, data integrity, and fault tolerance.",
         tags: ['Python', 'CLI', 'Notion API', 'Automation'],
         // Check if this URL is correct
-        url: "https://github.com/KanishkMishra143/NotionSafe", 
+        url: "https://kanishkmishra143.github.io/NotionSafe/", 
     },
     {
         name: "Sink Switch – Audio Management Suite",
         description: "Linux: Command-line utility to switch PipeWire/PulseAudio sinks. Windows: Native Go application that interacts directly with Windows Core Audio APIs.",
         tags: ['Windows', 'Linux', 'Python', 'GO','CLI', 'PipeWire', 'Fedora COPR', 'Arch User Repository(AUR)'],
-        url: "https://github.com/KanishkMishra143/sink-switch",
+        url: "https://kanishkmishra143.github.io/Sink-Switch/",
     },
     {
         name: "NextStep – Career Recommendation Platform",
