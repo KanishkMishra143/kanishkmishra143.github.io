@@ -7,11 +7,11 @@ export interface Project {
 
 export const projectsData: Project[] = [
     {
-        name: "NotionSafe – Secure Notion Backup Tool",
-        description: "A CLI with cross-platform GUI to securely back up Notion workspace data via official APIs. Designed for automation, data integrity, and fault tolerance.",
-        tags: ['Python', 'CLI', 'Notion API', 'Automation'],
+        name: "AutoDeploy – Self-Hosted PaaS Platform",
+        description: "Built a self-hosted PaaS inspired by Railway and Render for deployment and management of containerized applications. Designed deployment workflows integrating Docker, Supabase, and Cloudflare Tunnel on Linux infrastructure.",
+        tags: ['Self-Hosted','Docker','PaaS', 'PostgreSQL', 'Supabase', 'Node.js','DevOps'],
         // Check if this URL is correct
-        url: "https://kanishkmishra143.github.io/NotionSafe/", 
+        url: "https://auto-deploy.tech", 
     },
     {
         name: "Sink Switch – Audio Management Suite",

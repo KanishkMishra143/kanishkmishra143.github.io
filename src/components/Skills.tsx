@@ -11,11 +11,9 @@ const Skills = () => {
             <h3 className="text-lg font-semibold text-slate-300 mb-2">Languages</h3>
             <div className="flex flex-wrap gap-2">
                 <SkillPill name="Python" icon={Code} />
+                <SkillPill name="C++" icon={Code} />
                 <SkillPill name="HTML" icon={Code} />
                 <SkillPill name="CSS" icon={Code} />
-                <SkillPill name="JS" icon={Code} />
-                <SkillPill name="C++" icon={Code} />
-                <SkillPill name="Go" icon={Code} />
                 <SkillPill name="Bash" icon={Code} />
             </div>
         </div>
