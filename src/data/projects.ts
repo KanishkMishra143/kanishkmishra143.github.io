@@ -29,7 +29,7 @@ export const projectsData: Project[] = [
     {
         name: "Interactive Symlink Creator – File Management Tool",
         description: "Interactive Bash utility to create and manage symbolic links with user-friendly prompts.Designed for safe file operations and streamlined workflow automation in Linux environments.",
-        tags: ['Bash', 'Linux'.'TUI','GO'],
+        tags: ['Bash', 'Linux', 'TUI','GO'],
         // Check if this URL is correct
         url: "https://github.com/KanishkMishra143/Interactive-Symlink-Creator", 
     },
