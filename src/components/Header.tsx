@@ -7,12 +7,12 @@ const Header = () => {
   return (
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:py-16">
       <div>
-        <div className="relative mb-4 h-40 w-40 overflow-hidden rounded-full bg-slate-700 md:h-48 md:w-48">
+        <div className="relative mb-4 h-56 w-56 overflow-hidden rounded-full bg-slate-700 md:h-[248px] md:w-[248px]">
           <Image
             src="/image.jpg"
             alt="Profile Picture"
             fill
-            sizes="(max-width: 768px) 160px, 192px"
+            sizes="(max-width: 767px) 224px, 248px"
             className="rounded-full object-cover object-center scale-110"
             priority
           />
