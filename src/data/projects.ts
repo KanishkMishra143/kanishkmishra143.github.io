@@ -14,6 +14,13 @@ export const projectsData: Project[] = [
         url: "https://auto-deploy.tech", 
     },
     {
+        name: "NotionSafe – Your Notion, Offline & Secure.",
+        description: "Built a cross-platform desktop app that creates versioned local backups of your Notion workspaces. Simple, automatic, and secure.",
+        tags: ['Windows','Linux','Python', 'CLI', 'GUI', 'GTK','QT', 'Notion API'],
+        // Check if this URL is correct
+        url: "https://kanishkmishra143.github.io/NotionSafe/", 
+    },
+    {
         name: "Sink Switch – Audio Management Suite",
         description: "Linux: Command-line utility to switch PipeWire/PulseAudio sinks. Windows: Native Go application that interacts directly with Windows Core Audio APIs.",
         tags: ['Windows', 'Linux', 'Python', 'GO','CLI', 'PipeWire', 'Fedora COPR', 'Arch User Repository(AUR)'],
